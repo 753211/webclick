@@ -1,0 +1,107 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+/* Upload Section */
+.upload-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.upload-section input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.upload-section button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 10px;
+  border: none;
+  background-color: #ff7e5f;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.upload-section button:hover {
+  background-color: #feb47b;
+}
+
+/* Preview Section */
+.preview-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.preview-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.preview-section button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #feb47b;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.preview-section button:hover {
+  background-color: #ff7e5f;
+}
+
+/* Gallery Section */
+.gallery-section {
+  margin-top: 40px;
+}
+
+.gallery-section .gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.gallery-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 0.9rem;
+}
