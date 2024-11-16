@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Upload and Download</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Image Upload and Download</h1>
+      <p>Upload, view, and download images instantly!</p>
+    </header>
+
+    <main>
+      <!-- Image Upload Section -->
+      <div class="upload-section">
+        <input type="file" id="imageInput" accept="image/*" />
+        <button id="uploadButton">Upload Image</button>
+      </div>
+
+      <!-- Image Preview Section -->
+      <div class="preview-section">
+        <h2>Image Preview:</h2>
+        <img id="imagePreview" src="" alt="Preview Image" />
+        <button id="downloadButton" style="display:none;">Download Image</button>
+      </div>
+
+      <!-- Image Gallery Section -->
+      <div class="gallery-section">
+        <h2>Image Gallery</h2>
+        <div id="imageGallery" class="gallery-grid"></div>
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2024 Image Upload and Download</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
